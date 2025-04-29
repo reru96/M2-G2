@@ -9,25 +9,13 @@ public class Lab4_5 : MonoBehaviour
     void Start()
     {
         
-        int find = Random.Range(1, 51); 
-        int x = 10; 
-        int[] numbers = new int[x];
+        int find = 10; 
+        int[] numbers = new int[10];
 
         
         for (int i = 0; i < numbers.Length; i++)
         {
-            if (Random.value < 0.2f) 
-            {
-                numbers[i] = find;
-            }
-            else
-            {
-                numbers[i] = Random.Range(1, 51);
-            }
-        }
-
-        for (int i = 0; i < numbers.Length; i++)
-        {
+            numbers[i] = Random.Range(0, find + 1);
             if (numbers[i] == find)
             {
                 Debug.Log("found");
@@ -36,10 +24,12 @@ public class Lab4_5 : MonoBehaviour
             {
                 Debug.Log("not found");
             }
-        }
-
+            
         Debug.Log("iterations finished");
     }
+        }
+
+       
 
     // Update is called once per frame
     void Update()

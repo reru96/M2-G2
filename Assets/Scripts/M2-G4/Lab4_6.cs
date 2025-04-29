@@ -18,7 +18,7 @@ public class Lab4_6 : MonoBehaviour
         int[] nuovoArray = new int[20];
 
         for (int i = 0; i < nuovoArray.Length; i++)
-        {
+        { 
             nuovoArray[i] = Random.Range(1, 101); 
         }
 

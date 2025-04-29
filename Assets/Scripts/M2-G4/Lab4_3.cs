@@ -8,7 +8,7 @@ public class Lab4_3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i <= numero; i++)
+        for (int i = 0; i < numero; i++)
         {
             if (i % 3 == 0 && i % 5 == 0)
             {
@@ -22,7 +22,10 @@ public class Lab4_3 : MonoBehaviour
             {
                 Debug.Log("Buzz");
             }
-            
+            else
+            {
+                Debug.Log("Il contatore:" + i);
+            }
 
         }
     }
