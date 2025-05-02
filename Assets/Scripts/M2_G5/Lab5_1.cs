@@ -29,8 +29,8 @@ public class Lab5_1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    isEven(10);
-    isMultiple(11, 30);
+    isEven(number);
+    isMultiple(baSe, multiPle);
     }
 
     // Update is called once per frame

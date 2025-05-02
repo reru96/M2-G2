@@ -161,9 +161,8 @@ Transform:
 --- !u!114 &1037397968
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1101500245752893439, guid: 113fa82ab28e0f24ca9539fb03e4e074,
-    type: 3}
-  m_PrefabInstance: {fileID: 5073458987741035351}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037397966}
   m_Enabled: 1
@@ -777,7 +776,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Esercizio 7
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

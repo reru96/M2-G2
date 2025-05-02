@@ -330,9 +330,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63d437fc8e72ed64ca42f55e09f04562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  number: 11
-  multiPle: 89
-  baSe: 32
+  number: 19
+  multiPle: 267
+  baSe: 10
 --- !u!1 &731036719
 GameObject:
   m_ObjectHideFlags: 0
