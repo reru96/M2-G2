@@ -10,7 +10,7 @@ public class Lab4_5 : MonoBehaviour
     {
         
         int find = 10; 
-        int[] numbers = new int[10];
+        int[] numbers = new int[find];
 
         
         for (int i = 0; i < numbers.Length; i++)
@@ -24,10 +24,9 @@ public class Lab4_5 : MonoBehaviour
             {
                 Debug.Log("not found");
             }
-            
+        }
         Debug.Log("iterations finished");
     }
-        }
 
        
 
