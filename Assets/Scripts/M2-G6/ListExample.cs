@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ListExample : MonoBehaviour
 {
-    public int numeroMax = 15; 
+    public int numeroMax = 15;
 
     void Start()
     {
@@ -15,7 +15,7 @@ public class ListExample : MonoBehaviour
             int posizione = i % 3;
 
             if (posizione == 0)
-            { 
+            {
                 numeri.Insert(0, i);
             }
             else if (posizione == 1)
@@ -27,15 +27,15 @@ public class ListExample : MonoBehaviour
                 int posizioneMeta = numeri.Count / 2;
                 numeri.Insert(posizioneMeta, i);
             }
-        string risultato = string.Join (", ", numeri);
-        Debug.Log("Contenuto lista: " + risultato);
+            string risultato = string.Join(", ", numeri);
+            Debug.Log("Contenuto lista: " + risultato);
         }
-       
+
     }
 
-   
+
     void Update()
     {
-        
+
     }
 }

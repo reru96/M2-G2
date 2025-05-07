@@ -19,7 +19,7 @@ public class Esercizio_3 : MonoBehaviour
     {
         if (!input.StartsWith("(") || !input.Contains(")"))
         {
-            Debug.LogError(input);
+            Debug.LogError("la frase è mal formata: " + input);
             return;
         }
 
